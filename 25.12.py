@@ -3,5 +3,5 @@ import pandas as pd
 df = pd.read_excel('tbl.xlsx')
 
 # Посмотреть рандомные 5 строк
-print(df.sample(5))
+print(df.head(5))
 
